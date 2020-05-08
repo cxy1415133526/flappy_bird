@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        canvas{
+            border: 1px solid #000;
+            margin: 40px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="480" height="640"></canvas>
+    <audio src="music/so.mp3" id="so"></audio>
+    <audio src="music/zhuang.mp3" id="zhuang"></audio>
+    <audio src="music/defen.mp3" id="defen"></audio>
+    <script src="js/Game.js"></script>
+    <script src="js/Land.js"></script>
+    <script src="js/Pipe.js"></script>
+    <script src="js/Bird.js"></script>
+    <script src="js/Score.js"></script>
+    <script src="js/GameOverScene.js"></script>
+    <script>
+        var game = new Game();
+    </script>
+</body>
+</html>
